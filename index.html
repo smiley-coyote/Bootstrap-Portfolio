@@ -14,6 +14,8 @@ body {
 p {
     line-height: 30px;
 }
+
+
     </style>
 </head>
 <body>
@@ -21,12 +23,12 @@ p {
     <div class="container-full" style="background:white;width:100%;margin:0 auto">
         <div class="container" style="background:white;width:960px">
             <div class="row">
-                <div class="col-md-4 col-lg-3 col-sm-12 col-xs-12" style="color:white;background:teal;height:100px;padding:25px;text-align:center">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 d-inline-flex justify-content-center" style="color:white;background:teal;height:100px;padding:25px">
                     <h1>Nick Alex</h1>
                 </div>
                 <!-- nav links -->
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ml-auto" style="height:100px;margin-right:-40px">
-                        <nav class="navbar navbar-expand-lg navbar-light" style="padding:30px">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 d-inline-flex justify-content-center ml-auto" style="height:100px">
+                        <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-xs navbar-light" style="padding:30px">
                                 
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav">
@@ -42,29 +44,29 @@ p {
         </div>
     </div>
     <!--space between body and header-->
-    <div class="container">
-        <div class="row"
-        <div class="col-lg-12" style="height:50px;">
+    <!-- <div class="container">
+        <div class="row">
+        <div class="spacer col-lg-12 col-md-12" style="height:50px">
         </div>
-    </div>
+    </div>-->
     <!--main body-->
-    <div class="container" style="background:white;height:500px;width:960px">
+    <div class="container" style="background:white;height:auto;width:960px;margin-top:50px">
             <!-- header row -->
             <div class="row">
-                <div class="col-lg-12" style="height:100px;padding:30px;border-bottom: 2px solid lightgray;margin-bottom:20px">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 d-inline-flex justify-content-center" style="height:100px;padding:30px;margin-bottom:20px">
                     <h1>About Me</h1>
                 </div>
             </div>
             
             <div class="row">
-                <!-- column -->
-                <div class="col-lg-3" style="height:200px">
-                    <img src="assets/images/cat.jpg" style="height:180px;width:auto">
+                <!-- column with image -->
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="height:200px">
+                    <img class="rounded mx-auto d-block" src="assets/images/cat.jpg" style="height:180px;width:auto">
                 </div>
                 <!-- text column -->
-                <div class="col-lg-9" style="height:400px">
-                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque mauris ac turpis laoreet molestie. Quisque et egestas magna. Sed porta leo nulla, sed pulvinar nisl tincidunt et. Sed malesuada sem id egestas ultricies. Ut dapibus, orci ac accumsan euismod, lacus elit iaculis ligula, ac varius lorem tortor et odio. Proin sit amet velit ligula. Aenean purus velit, interdum id imperdiet ullamcorper, rutrum sed mi. </p>
-                        <p>Cras vitae dapibus dui. Nunc lacinia auctor fermentum. Nulla at faucibus risus, id scelerisque arcu. Nulla sed viverra nunc, eu iaculis nisi. Proin pretium nulla ut convallis maximus. Donec ex velit, molestie ut mattis quis, rutrum dignissim turpis. Aliquam non ipsum cursus, molestie felis id, mollis enim. Nulla eleifend est sit amet est faucibus, id faucibus elit porttitor. Duis dictum non lacus sit amet cursus. </p>
+                <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 ml-auto" style="height:auto;padding-left:50px;">
+                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque mauris ac turpis laoreet molestie. Quisque et egestas magna. Sed porta leo nulla, sed pulvinar nisl tincidunt et. Sed malesuada sem id egestas ultricies. Ut dapibus, orci ac accumsan euismod, lacus elit iaculis ligula, ac varius lorem tortor et odio. Proin sit amet velit ligula. </p>
+                        <p>Cras vitae dapibus dui. Nunc lacinia auctor fermentum. Nulla at faucibus risus, id scelerisque arcu. Nulla sed viverra nunc, eu iaculis nisi. Proin pretium nulla ut convallis maximus. Donec ex velit, molestie ut mattis quis, rutrum dignissim turpis. Aliquam non ipsum cursus, molestie felis id, mollis enim. Nulla eleifend est sit amet est faucibus, id faucibus elit porttitor. </p>
 
 
                     </div>
@@ -74,17 +76,14 @@ p {
              
         
     </div>
-    <!--space between body and footer-->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12" style="height:50px"></div>
-        </div>
-    </div>
+
     <!-- footer -->
-    <div class="container-full" style="width:100%;margin:0 auto">
-        <div class="row">
-            <div class="col-lg-12" style="color:white;background:gray;height:100px;border-top: 10px solid teal;text-align: center; padding-top:30px">
-                copyright
+    <div class="fixed-bottom">
+        <div class="container-full">
+            <div class="row">
+                <div class="col-lg-12" style="color:white;background:gray;height:100px;border-top: 10px solid teal;text-align: center; padding-top:30px">
+                    copyright
+                </div>
             </div>
         </div>
     </div>
